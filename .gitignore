@@ -1,0 +1,12 @@
+*.bak
+*.swp
+*~
+
+*.class
+*.dex
+*.apk
+*.ap_
+
+bin/
+gen/
+

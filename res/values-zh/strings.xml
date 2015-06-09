@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">體溫記</string>
+    <string name="action_add">增加</string>
+    <string name="action_import">導入（自剪貼板 ）</string>
+    <string name="action_settings">設置</string>
+    <string name="title_activity_edit_info">編輯信息</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="date">日期</string>
+    <string name="time">時間</string>
+    <string name="body_temperature">體溫</string>
+    <string name="comment">備註</string>
+
+</resources>
