@@ -39,7 +39,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/comment"
-        android:inputType="textMultiLine" />
+        android:inputType="text" />
 
     <Button
         android:id="@+id/button_confirm"

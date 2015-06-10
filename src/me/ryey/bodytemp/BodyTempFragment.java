@@ -81,7 +81,7 @@ public class BodyTempFragment extends ListFragment {
 	}
 
 	public void onListItemClick(ListView parent, View v, int position, long id) {            
-		Toast.makeText(getActivity(), "" + bodyTempData[position], Toast.LENGTH_SHORT).show();  
+		Toast.makeText(getActivity(), "" + bodyTempData[position], Toast.LENGTH_SHORT).show();
 	}    
 
 	private void setUpList() {
@@ -127,5 +127,12 @@ public class BodyTempFragment extends ListFragment {
 		}
 		all_data.add(new_data);
 		setUpList();
+	}
+	String exportData() {
+		String str = "";
+		for (String tmp : all_data) {
+			str += tmp + "\n";
+		}
+		return str;
 	}
 }  

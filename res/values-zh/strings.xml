@@ -5,6 +5,7 @@
     <string name="action_add">增加</string>
     <string name="action_import">導入（自剪貼板 ）</string>
     <string name="action_settings">設置</string>
+    <string name="action_export">導出（至剪貼板）</string>
     <string name="title_activity_edit_info">編輯信息</string>
     <string name="hello_world">Hello world!</string>
     <string name="date">日期</string>

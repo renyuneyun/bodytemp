@@ -42,6 +42,8 @@ public class MainActivity extends Activity {
 		} else if (id == R.id.action_import) {
 			handleImport();
 			return true;
+		} else if (id == R.id.action_export) {
+			handleExport();
 		} else if (id == R.id.action_settings) {
 			return true;
 		}
@@ -90,5 +92,11 @@ public class MainActivity extends Activity {
 			CharSequence ch = item.getText();
 			((BodyTempFragment)getFragmentManager().findFragmentById(R.id.fragment1)).readFromString(ch.toString());
 		}
+	}
+	private void handleExport() {
+		ClipboardManager cm = (ClipboardManager)getSystemService(CLIPBOARD_SERVICE);
+		String str = ((BodyTempFragment)getFragmentManager().findFragmentById(R.id.fragment1)).exportData();
+		ClipData data = ClipData.newPlainText("label1", str);
+		cm.setPrimaryClip(data);
 	}
 }
