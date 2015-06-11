@@ -6,13 +6,12 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="me.ryey.bodytemp.MainActivity" >
+    tools:context="me.ryey.bodytemp.ui.MainActivity" >
 
     <fragment
         android:id="@+id/fragment1"
-        android:name="me.ryey.bodytemp.BodyTempFragment"
+        android:name="me.ryey.bodytemp.ui.BodyTempFragment"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView1" />
+        android:layout_height="wrap_content" />
 
 </RelativeLayout>

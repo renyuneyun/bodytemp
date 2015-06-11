@@ -1,5 +1,6 @@
-package me.ryey.bodytemp;
+package me.ryey.bodytemp.ui;
 
+import me.ryey.bodytemp.R;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
